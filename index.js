@@ -1,7 +1,7 @@
 function BoardMember(name,homeState,training){
   this.name =name;
   this.homeState=homeState;
-  this.training =training;  
+  this.training =training;
 }
 
 BoardMember.prototype.veto= function(){
@@ -13,4 +13,3 @@ BoardMember.prototype.approve= function(){
 BoardMember.prototype.doCharity= function(){
   return `I like to help people.`;
 }
-
